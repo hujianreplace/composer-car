@@ -1,0 +1,20 @@
+{
+    "name": "hujianreplace/composer-car",
+    "description": "this is a demo for build composer packagelist",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hujianreplace",
+            "email": "285520463@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape",
+            "Ford\\Focus\\": "src/Ford/Focus"
+        }
+    }
+}

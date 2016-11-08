@@ -1,0 +1,15 @@
+{
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hujianreplace/composer-car.git"
+        },
+        {
+            "packagist": false
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev":{
+        "hujianreplace/composer-car":"dev-master"
+    }
+}
